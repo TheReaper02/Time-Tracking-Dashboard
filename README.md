@@ -17,7 +17,7 @@ This project is a time tracking dashboard that displays how much time is spent o
 
 ### Screenshot
 
-![Project Output](./projectoutput.png)
+![Project Output](project-output.png)
 
 ---
 This project was completed as part of a learning challenge. It helped me gain confidence in building interactive and responsive web interfaces.

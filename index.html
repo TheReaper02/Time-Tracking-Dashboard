@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+  <main class="dashboard-layout">
+    <section class="sidebar">
+      <div class="profile">
+        <img src="./images/image-jeremy.png" alt="Jeremy Robson">
+        <div class="profile-copy">
+          <p class="report-for">Report for</p>
+          <h1 class="name">Jeremy Robson</h1>
+        </div>
+      </div>
+
+      <nav class="timeframes" aria-label="Select timeframe">
+        <button data-time="daily" aria-pressed="false">Daily</button>
+        <button class="active" data-time="weekly" aria-pressed="true">Weekly</button>
+        <button data-time="monthly" aria-pressed="false">Monthly</button>
+      </nav>
+    </section>
+
+    <section class="dashboard">
+
+    </section>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
